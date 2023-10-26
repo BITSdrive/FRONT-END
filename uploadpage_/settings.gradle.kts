@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Bannerpage"
+rootProject.name = "My Application3"
 include(":app")
  
