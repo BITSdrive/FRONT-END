@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302113954659",
+    "project_id": "bits-drive-bcab9",
+    "storage_bucket": "bits-drive-bcab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302113954659:android:ff1f50679888d96fbed156",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB39qBY6WizumS_BkCV3Omkp0_QEV3ckTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

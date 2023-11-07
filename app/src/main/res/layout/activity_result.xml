@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="106dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="82dp"
+            android:text="2차인증"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="276dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="341dp"
+            android:gravity="center"
+            android:text="2차 인증은 아까 올린 사진 2개를 바탕으로 실시간 웹캠에서 사진과 다른 사람이 운행시 알람이 오게 됩니다!\n\n안전운전하세요!"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/alarm"
+            android:layout_width="389dp"
+            android:layout_height="128dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="469dp"
+            android:text="\tQ. 다른 사람이라면 어떻게 조취가 취해지나요? \n\n A. 렌터카 회사에 연락이 취해지며, 실시간 블랙박스를 통해 직원이 운전자를 직접 육안으로 확인하게 됩니다. 이후 조치는 렌터카 회사에서 맡게 됩니다"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="376dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/alarm"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:scrollbars="vertical" />
+
+        <ImageView
+            android:layout_marginStart="28dp"
+            android:id="@+id/imageView4"
+            android:layout_width="306dp"
+            android:layout_height="198dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/img4" />
+
+
+</RelativeLayout>
